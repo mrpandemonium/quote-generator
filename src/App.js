@@ -21,7 +21,7 @@ function App() {
       });
   };
   return (
-    <div className="App">
+    <div id="wrapper">
       <div id="quote-box">
         <p id="text">{quote.text}</p>
         <p id="author">{quote.author}</p>
