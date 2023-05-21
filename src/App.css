@@ -1,4 +1,10 @@
 #wrapper {
   width: 841px;
-  margin: 0 auto;
+  margin: auto;
+  background-color: grey;
+  align-items: center;
+}
+
+#text {
+  border: 2px solid black;
 }

@@ -24,7 +24,7 @@ function App() {
     <div id="wrapper">
       <div id="quote-box">
         <p id="text">{quote.text}</p>
-        <p id="author">{quote.author}</p>
+        <p id="author">-{quote.author}</p>
         <button id="new-quote" onClick={getQuote}>
           New Quote
         </button>
